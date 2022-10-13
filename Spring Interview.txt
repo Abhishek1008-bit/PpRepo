@@ -1,0 +1,24 @@
+
+Q1. What is Ioc Container?
+Ans. Spring IoC Container is the core of Spring Framework. It creates the objects, configures and assembles their dependencies, manages 
+their entire life cycle. The Container uses Dependency Injection(DI) to manage the components that make up the application.It gets the 
+information about the objects from a configuration file(XML) or Java Code or Java Annotations and Java POJO class. These objects are 
+called Beans. Since the Controlling of Java objects and their lifecycle is not done by the developers, hence the name Inversion Of Control.
+
+Q2. What is Dependencies Injection?
+Ans.Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage 
+and test the application. Dependency Injection makes our programming code loosely coupled. To understand the DI better, Let's understand 
+the Dependency Lookup (DL) first:
+
+Q3.What is @Autowired?
+Ans. The @Autowired annotation marks a Constructor, Setter method, Properties and Config() method as to be autowired that is ‘injecting 
+     beans'(Objects) at runtime by Spring Dependency Injection mechanism which is clearly depicted from the image below as shown:
+
+Q4. What is @Bean.?
+Ans. Spring @Bean annotation tells that a method produces a bean to be managed by the Spring container. It is a method-level annotation. 
+     During Java configuration (@Configuration), the method is executed and its return value is registered as a bean within a BeanFactory.
+
+@5. What is @Component?.
+
+
+ 
